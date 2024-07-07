@@ -93,3 +93,66 @@ header {
     text-decoration: none;
     color: #000000;
 }
+
+.action_images {
+    background-image: linear-gradient(to right, #005396, #00a0dc);
+}
+
+.action_head {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.action_head p {
+    color: white;
+}
+
+.action_head span {
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+}
+
+.to_action_lists {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.to_action_lists a {
+    width: 350px;
+    margin: 0 auto;
+    background-color: #005396;
+    display: block;
+    padding: 25px 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.ash {
+    background-color: #f2f2ef;
+    padding: 60px;
+}
+
+footer {
+    background-image: linear-gradient(to right, #005396, #00a0dc);
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+footer .link_wrapper {
+    display: flex;
+}
+
+footer p {
+    color: white;
+}
+
+.link_wrapper a {
+    color: white;
+    display: block;
+    margin: 16px;
+    text-decoration: none;
+}

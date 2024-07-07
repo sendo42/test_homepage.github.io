@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(255,255,255,0.6);
+    opacity: 0.2;
+}
+
+.intro_lists {
+    display: flex;
+    justify-content:space-around;
+    margin-left: auto;
+}
+
+.intro_list {
+    padding: 10px;
+    margin: auto auto;
+}

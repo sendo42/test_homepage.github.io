@@ -35,9 +35,12 @@ header {
     color: white;
 }
 
-.news_container {
-    color: #005396;
-    margin: 60px 200px;
+@media (min-width:430px)
+{
+    .news_container {
+        color: #005396;
+        margin: 60px 200px;
+    }
 }
 
 .news_container p {
@@ -108,11 +111,26 @@ header {
     color: white;
 }
 
+
 .action_head span {
     font-weight: 900;
     color: white;
     font-size: 40px;
 }
+
+@media (max-width:430px)
+{
+    .action_head span {
+        font-weight: 900;
+        color: white;
+        font-size: 30px;
+    }
+
+    .action_head svg {
+        display: none;
+    }
+}
+
 
 .to_action_lists {
     margin-top: 50px;

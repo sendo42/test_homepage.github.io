@@ -35,6 +35,15 @@ header {
     color: white;
 }
 
+@media (max-width:430px)
+{
+    .news_container {
+        color: #005396;
+        margin: 10px 20px;
+    }
+}
+
+
 @media (min-width:430px)
 {
     .news_container {
